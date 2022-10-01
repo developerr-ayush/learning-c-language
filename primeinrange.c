@@ -6,7 +6,7 @@ int main()
 {
     // Declare the variables
     int a, b, i, j, flag;
-    a = 0;
+    a = 2;
     b = 100;
     // Ask user to enter lower value of interval
 

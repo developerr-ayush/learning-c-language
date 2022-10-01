@@ -1,18 +1,17 @@
 #include <stdio.h>
-int power(int a, int b);
 
 int main()
 {
-    printf("%d",power(2,4));
+    // getting values from user 
+    int a;
+    int b;
+    printf("Enter First Side of Rectangle");
+    scanf("%d",&a);
+    printf("Enter Second Side of Rectangle");
+    scanf("%d",&b);
+
+    // printing perimeter 
+    printf("Perimeter of Rectangle is %d", 2*(a+b));
+
     return 0;
 }
-
-int power(int a, int b){
-    int x = a;
-    for (int i = 0; i < b; i++)
-    {
-         x *= a;
-        /* code */
-    }
-    return x;    
-};
